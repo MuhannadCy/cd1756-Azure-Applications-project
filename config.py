@@ -6,7 +6,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or '8yS8Q~q5_-RdOx1oa45f5yV_mv3jyxJffT28adeu'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'muhannadproject1'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'Dc8sG4Hr7rmYZSfmPMehTKhwDxKMySgWCVHWWmiFLAdYnPAMzFv1G8AZh2bPzs5immCuW9Fy5hxy+ASteaDsqg=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'BZANTkAjQp0yO+xj8IAUTZd7zb27+F6Yh//pz5TvckcCw4NmYxEjhagXR7YwX/vPnDLMoRcHv1qG+AStY1lP4w=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'muhannadproject1.database.windows.net'

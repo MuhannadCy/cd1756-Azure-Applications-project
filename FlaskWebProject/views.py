@@ -126,7 +126,7 @@ def _load_cache():
 def _save_cache(cache):
     # TODO: Save the cache, if it has changed
     if cache.has_state_changed:
-        session['token_cache']=cache.serilalize()
+        session['token_cache']=cache.serialize()
     pass
 
 def _build_msal_app(cache=None, authority=None):
